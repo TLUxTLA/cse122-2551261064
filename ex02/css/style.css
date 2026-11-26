@@ -1,0 +1,58 @@
+/* Định dạng toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Khung quảng cáo */
+.banner {
+    max-width: 820px;
+    margin: 20px auto;
+    padding: 28px 36px;
+
+    /* Nền vàng chuyển sắc */
+    background: linear-gradient(
+        160deg,
+        #C9A227,
+        #A8861B
+    );
+
+    /* Chữ màu trắng */
+    color: #FFFFFF;
+
+    /* Đổ bóng khung */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+    /* Giữ khung chứa ảnh nổi */
+    overflow: auto;
+}
+
+/* Tiêu đề */
+.banner h1 {
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+/* Các đoạn văn */
+.banner p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Hình ảnh nổi bên phải */
+.anh-noi {
+    width: 260px;
+    float: right;
+
+    border: 3px solid rgba(255, 255, 255, 0.85);
+    border-radius: 4px;
+
+    margin: 0 0 14px 18px;
+}
+
